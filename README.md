@@ -48,7 +48,7 @@ The application also displays the model's evaluation metrics, including:
 
 The first page allows the user to enter the vehicle's information before making a prediction.
 
-![Car Price Predictor Input](Screenshot%202026-08-29%20173034.png)
+![Car Price Predictor Input](Screenshot%202026-08-29%20173028.png)
 
 ---
 
@@ -56,7 +56,7 @@ The first page allows the user to enter the vehicle's information before making 
 
 After clicking **Predict Price**, the application displays the estimated vehicle price together with the model's performance metrics and the entered vehicle information.
 
-![Car Price Predictor Result](Screenshot%202026-08-29%20173028.png)
+![Car Price Predictor Result](Screenshot%202026-08-29%20173034.png)
 
 ---
 
