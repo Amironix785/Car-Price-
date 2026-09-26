@@ -232,11 +232,11 @@ MAE = \frac{1}{n}\sum_{i=1}^{n}|y_i-\hat{y}_i|
 $$
 
 Where:
-$$
+
 - \(n\) = number of test samples
 - \(y_i\) = actual price
 - \(\hat{y}_i\) = predicted price
-$$
+
 
 A smaller MAE means that, on average, predictions are closer to the actual prices.
 
