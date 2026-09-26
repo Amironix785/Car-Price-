@@ -208,13 +208,13 @@ The model is evaluated using three common regression metrics:
 These metrics are calculated after the model predicts the prices of the test data.
 
 ```python
-$$
+
 MAE = mean_absolute_error(y_test, y_pred)
 
 MSE = mean_squared_error(y_test, y_pred)
 
 RMSE = np.sqrt(MSE)
-$$
+
 ```
 
 ---
@@ -226,17 +226,17 @@ $$
 MAE represents the average absolute difference between the actual values and predicted values.
 
 ### Formula
+
 $$
-\[
 MAE = \frac{1}{n}\sum_{i=1}^{n}|y_i-\hat{y}_i|
-\]
+$$
 
 Where:
-$$
+
 - \(n\) = number of test samples
 - \(y_i\) = actual price
 - \(\hat{y}_i\) = predicted price
-$$
+
 A smaller MAE means that, on average, predictions are closer to the actual prices.
 
 ---
@@ -247,9 +247,9 @@ MSE calculates the average squared difference between actual and predicted value
 
 ### Formula
 
-\[
+$$
 MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2
-\]
+$$
 
 Because the errors are squared, larger errors have a greater effect on the final value.
 
@@ -260,11 +260,11 @@ Because the errors are squared, larger errors have a greater effect on the final
 RMSE is the square root of MSE.
 
 ### Formula
+
 $$
-\[
 RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}
-\]
 $$
+
 RMSE is expressed in the same unit as the target variable.
 
 Since the target variable is the vehicle price in USD, RMSE is also expressed in USD.
